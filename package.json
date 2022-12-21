@@ -109,7 +109,8 @@
 		"lisk-sdk": "^5.2.2",
 		"tar": "6.0.2",
 		"tslib": "1.13.0",
-		"axios": "0.21.1"
+		"axios": "0.21.1",
+		"lns-dashboard-plugin": "file:./lns-dashboard-plugin"
 	},
 	"devDependencies": {
 		"@oclif/dev-cli": "1.26.10",
