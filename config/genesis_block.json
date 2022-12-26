@@ -1,0 +1,772 @@
+{
+	"header": {
+		"generatorPublicKey": "",
+		"height": 0,
+		"previousBlockID": "",
+		"reward": "0",
+		"signature": "",
+		"timestamp": 1671591985,
+		"transactionRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+		"version": 0,
+		"asset": {
+			"initRounds": 3,
+			"initDelegates": [
+				"083bc624d62efc426d4e73b5ca7bcd2bb1c17c65",
+				"08c2a7d2a54f7fa0b2ed4f977b532ce34273ab8c",
+				"0a6f8499454d3d4d61dced096fbf14a81f652542",
+				"0ad731aa34b641e35bbbd8f9293929538144f4ab",
+				"0dd05efbd5232a6f940fbd1432ad346f2f0c6893",
+				"40a90a7779bd48d2092951fdb50b6dce298104bb",
+				"7a241d4e3f91bf126dc24e21d60b24f690611446",
+				"803585e6bb6da5c7bb6306f750da630050c2c97d",
+				"8ff8be41c6ea3284d5aeada6f118c9c55ad26f7a",
+				"9c7a1e75fbb6131f791f7dabe20ea7a980b684f2",
+				"a839ccc2f2b3de9eae256538f2988cc47d8ed4b3",
+				"b156b776f8b7282fb6c7db65a6e4dde0abad9fad",
+				"b886e65a123b4c332421295437a358fe44e07afc",
+				"bec71396e79a0900e5e9c3f06c56fc4facf0cd3e",
+				"c013ea2f496ab57375f3bb76332013cac8b18986",
+				"c26c50782015214b1956f3755855a82327d495f2",
+				"c999a326f8d7796d83d6354a54eee8dbc8882614",
+				"ce1c3c082e13bb6a163ab123abb5e3f40b657245",
+				"dfeb9c54527db6ff418a1ea63d6f4d7c0afdedaa",
+				"e328ad52845ca451a232fcfeeef5d5ca7de24dcf",
+				"ebfcda378787358bb6f1e7ccd83fb51847499358",
+				"ecaa624159ab517ce126ce701afa143a72f264f6",
+				"fa80155bf687bb8d87b56aa669907a0c0bab5bd3"
+			],
+			"accounts": [
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_8",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "083bc624d62efc426d4e73b5ca7bcd2bb1c17c65"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_19",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "08c2a7d2a54f7fa0b2ed4f977b532ce34273ab8c"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_18",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "0a6f8499454d3d4d61dced096fbf14a81f652542"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_9",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "0ad731aa34b641e35bbbd8f9293929538144f4ab"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_15",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "0dd05efbd5232a6f940fbd1432ad346f2f0c6893"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "11a23e905613fe775251cd7de604aae91ed22387"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_17",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "40a90a7779bd48d2092951fdb50b6dce298104bb"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "47bb7b0e90d74d4fbc3ac3ebb60fdb8241331bec"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_7",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "7a241d4e3f91bf126dc24e21d60b24f690611446"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_3",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "803585e6bb6da5c7bb6306f750da630050c2c97d"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_4",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "8ff8be41c6ea3284d5aeada6f118c9c55ad26f7a"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "97ea325534b8f86dd6ffa87aadb6655300346ea4"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_14",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "9c7a1e75fbb6131f791f7dabe20ea7a980b684f2"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_20",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "a839ccc2f2b3de9eae256538f2988cc47d8ed4b3"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "ad743b4958e6c6394daff2dfb8ed2fb8a6976482"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_2",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "b156b776f8b7282fb6c7db65a6e4dde0abad9fad"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_11",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "b886e65a123b4c332421295437a358fe44e07afc"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_0",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "bec71396e79a0900e5e9c3f06c56fc4facf0cd3e"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_16",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "c013ea2f496ab57375f3bb76332013cac8b18986"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_22",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "c26c50782015214b1956f3755855a82327d495f2"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_12",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "c999a326f8d7796d83d6354a54eee8dbc8882614"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_10",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "ce1c3c082e13bb6a163ab123abb5e3f40b657245"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_6",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "dfeb9c54527db6ff418a1ea63d6f4d7c0afdedaa"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_13",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "e328ad52845ca451a232fcfeeef5d5ca7de24dcf"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_21",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "ebfcda378787358bb6f1e7ccd83fb51847499358"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_1",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "ecaa624159ab517ce126ce701afa143a72f264f6"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "ed16ab22876ee3904ec13efe3fb0c168a813077b"
+				},
+				{
+					"token": {
+						"balance": "200000000000"
+					},
+					"sequence": {
+						"nonce": "0"
+					},
+					"keys": {
+						"mandatoryKeys": [],
+						"optionalKeys": [],
+						"numberOfSignatures": 0
+					},
+					"dpos": {
+						"delegate": {
+							"username": "delegate_5",
+							"pomHeights": [],
+							"consecutiveMissedBlocks": 0,
+							"lastForgedHeight": 0,
+							"isBanned": false,
+							"totalVotesReceived": "0"
+						},
+						"sentVotes": [],
+						"unlocking": []
+					},
+					"address": "fa80155bf687bb8d87b56aa669907a0c0bab5bd3"
+				}
+			]
+		},
+		"id": "e6b1f5ff73cefb6ff2d0dfe3d58932ea387f55b5659db9dcfbef0df842d8c887"
+	},
+	"payload": []
+}

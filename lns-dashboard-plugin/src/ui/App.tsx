@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-console */
 import { apiClient } from '@liskhq/lisk-client';
 import { CssBaseline } from '@material-ui/core';
@@ -53,8 +57,45 @@ const App: React.FC = () => {
 		if (!clientRef.current) {
 			return;
 		}
+
 		clientRef.current.subscribe('app:block:new', handleBlockUpdate);
+		clientRef.current.subscribe('app:transaction:new', handleTransactionUpdate);
 	}, [appState.ready]);
+
+	const handleTransactionUpdate = React.useCallback(
+		(event: Record<string, unknown> | undefined) => {
+			const client = clientRef.current;
+
+			const data = event as { transaction: string };
+
+			const transaction = client?.transaction.decode(data.transaction);
+
+			// 	console.log(transaction);
+			// eventObserver.emit(NEW_BLOCK_EVENT, block);
+
+			// for (const tx of block.payload) {
+			// 	eventObserver.emit(NEW_CONFIRMED_TX_EVENT, tx);
+			// }
+
+			if (transaction) {
+				const _asset = transaction.asset as any;
+				const asset = {
+					..._asset,
+					recipientAddress: Buffer.from(_asset.recipientAddress as string).toString('hex'),
+				};
+				const tx = {
+					id: Buffer.from(transaction.id as string).toString('hex'),
+					senderPublicKey: Buffer.from(transaction.senderPublicKey as string).toString('hex'),
+					moduleID: transaction.moduleID,
+					assetID: transaction.assetID,
+					fee: transaction.fee,
+					asset,
+				};
+				setTransactions(trxs => [tx, ...trxs] as any);
+			}
+		},
+		[clientRef.current],
+	);
 
 	const handleBlockUpdate = React.useCallback(
 		(event: Record<string, unknown> | undefined) => {
@@ -65,12 +106,11 @@ const App: React.FC = () => {
 			const block = (client?.block.toJSON(
 				client?.block.decode(Buffer.from(data.block)),
 			) as unknown) as Block;
-			eventObserver.emit(NEW_BLOCK_EVENT, block);
-			console.log(block.payload);
+			// eventObserver.emit(NEW_BLOCK_EVENT, block);
 
-			for (const tx of block.payload) {
-				eventObserver.emit(NEW_CONFIRMED_TX_EVENT, tx);
-			}
+			// for (const tx of block.payload) {
+			// 	eventObserver.emit(NEW_CONFIRMED_TX_EVENT, tx);
+			// }
 			setBlocks(blks => [block, ...blks]);
 
 			setTransactions(trxs => [...block.payload, ...trxs]);

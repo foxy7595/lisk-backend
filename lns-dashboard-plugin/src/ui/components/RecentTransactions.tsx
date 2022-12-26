@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import {
-	Box,
+	Box as B,
 	Card,
 	CardContent,
 	Table,
@@ -13,14 +14,15 @@ import * as React from 'react';
 import TransactionsContext from '../contexts/TransactionsContext';
 import LNSName from './LNSLabel';
 
+const Box = B as any;
+
 const RecentTransactions: React.FC = () => {
 	const transactions = React.useContext(TransactionsContext);
-
 	return (
 		<Box mt={4}>
 			<Typography variant={'h5'}>Recent Transactions</Typography>
 			<Card>
-				<CardContent>
+				<CardContent style={{ overflowX: 'auto' }}>
 					<Table>
 						<TableHead>
 							<TableRow>
@@ -28,6 +30,7 @@ const RecentTransactions: React.FC = () => {
 								<TableCell>Sender</TableCell>
 								<TableCell>ModuleID</TableCell>
 								<TableCell>AssetID</TableCell>
+								<TableCell>Amount</TableCell>
 								<TableCell>Fee</TableCell>
 								<TableCell>Recipient</TableCell>
 							</TableRow>
@@ -41,7 +44,8 @@ const RecentTransactions: React.FC = () => {
 									</TableCell>
 									<TableCell>{t.moduleID}</TableCell>
 									<TableCell>{t.assetID}</TableCell>
-									<TableCell>{t.fee}</TableCell>
+									<TableCell>{(t.asset as { amount: string }).amount.toString()}</TableCell>
+									<TableCell>{t.fee.toString()}</TableCell>
 									<TableCell>
 										{t.moduleID === 2 && t.assetID === 0 && (
 											<LNSName

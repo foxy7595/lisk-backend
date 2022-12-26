@@ -31,18 +31,6 @@ const MainPage: React.FC = () => {
 
 	return (
 		<MainLayout disableSearch={true}>
-			<Container component="main" maxWidth="md">
-				<div className={classes.paper}>
-					<Typography component="h1" variant="h2">
-						Lisk Name Service
-					</Typography>
-
-					<Box mt={8} width={'100%'}>
-						<SearchBar large={true} />
-					</Box>
-				</div>
-			</Container>
-
 			<br />
 			<br />
 			<Grid container spacing={3}>
